@@ -2,6 +2,10 @@
     background-color: white;
     border: none;
 }
+
+nav li {
+    font-size: 1.6rem;
+}
 .btn_nav {
     margin: 10px;
 }
@@ -61,8 +65,8 @@ ul.drop_down li.hover a {
 ul.drop_down ul { 
     width: 150px; 
     visibility: hidden; 
-    border: 1px solid gray;
     border-radius: 10px;
+    box-shadow: 1px 1px 5px #999999;
 }
 ul.drop_down ul li { 
     color: #000;        
