@@ -64,11 +64,13 @@ ul.drop_down li.hover a {
 */
 ul.drop_down ul { 
     width: 150px; 
-    visibility: hidden; 
+    visibility: hidden;
     border-radius: 10px;
     box-shadow: 1px 1px 5px #999999;
     
+    
 }
+
 ul.drop_down ul li { 
     color: #000;        
 }
@@ -79,3 +81,4 @@ ul.drop_down ul li {
 ul.drop_down li:hover > ul { 
     visibility: visible; 
 }
+
