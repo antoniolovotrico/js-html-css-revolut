@@ -67,6 +67,7 @@ ul.drop_down ul {
     visibility: hidden; 
     border-radius: 10px;
     box-shadow: 1px 1px 5px #999999;
+    
 }
 ul.drop_down ul li { 
     color: #000;        

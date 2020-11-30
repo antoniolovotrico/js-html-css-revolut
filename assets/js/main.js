@@ -16,6 +16,6 @@ $(function(){
         
     });
     
-    $("ul.drop_down li ul li:has(ul)").find("a:first").append(" &raquo; ");
+    $("ul.drop_down li ul li:has(ul)").find("a:first");
 
 });
