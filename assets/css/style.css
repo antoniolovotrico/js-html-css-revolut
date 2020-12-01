@@ -19,25 +19,18 @@ nav li {
     color: white;
 }
 
-/* 
-	LEVEL ONE
-*/
-/* ul.drop_down {
-    
-} */
-
 ul.list_menu li {
     list-style: none;
     padding: 10px; 
     margin-left: -20px;
 } 
 
-ul.drop_down a:hover {
+li.drop_down a:hover {
     color: #000;
     text-decoration: none;
 }
 
-ul.drop_down li a {
+li.drop_down li a {
     color: gray;  
 }
 
@@ -46,39 +39,28 @@ ul.list_menu li a {
     text-align: left; 
 }
 
-ul.drop_down li:last-child a { 
+li.drop_down li:last-child a { 
     border-right: none; 
 } 
 
-/* Doesn't work in IE */
-ul.drop_down li.hover, ul.drop_down li:hover { 
+li.drop_down li.hover, li.drop_down li:hover { 
     color: black; 
 }
-ul.drop_down li.hover a { 
+li.drop_down li.hover a { 
     color: black; 
 }
 
-
-/* 
-	LEVEL TWO
-*/
-ul.drop_down ul { 
-    width: 150px; 
-    visibility: hidden;
+li.drop_down ul { 
+    width: 150px;   
     border-radius: 10px;
-    box-shadow: 1px 1px 5px #999999;
-    
-    
+    box-shadow: 1px 1px 5px #999999;   
 }
 
-ul.drop_down ul li { 
+li.drop_down ul li { 
     color: #000;        
 }
-									  
-/* 
-	LEVEL THREE
-*/
-ul.drop_down li:hover > ul { 
-    visibility: visible; 
-}
 
+.dhide{
+    display: none;
+}
+									  

@@ -1,21 +1,19 @@
 //Handler Metod
 $(function(){
     //definire variabile pulsante menu
-    
+    var puls = $("li.drop_down");
     
     //funzione dropdown menu
-    $("ul.drop_down li").hover(function(){
+    puls.hover(function(){
         
-        $(this).addClass("hover");
-        $('ul:first',this).css('visibility', 'visible');
+        $(this).children("ul.list_menu").removeClass("dhide");
 
     }, function(){
 
-        $(this).removeClass("hover");
-        $('ul:first',this).css('visibility', 'hidden');
+        $(this).children("ul.list_menu").addClass("dhide");
         
     });
     
-    $("ul.drop_down li ul li:has(ul)").find("a:first");
+   
 
 });
